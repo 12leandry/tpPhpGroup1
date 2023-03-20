@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppons', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #1111;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0,5s;
+}
+
+.logo{
+    /* color: #fff; */
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: #ecd71a;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    /* color: #fff; */
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-reserve{
+    padding: 10px 20px;
+    background: #ecd71a;
+    text-transform: uppercase;
+}
+
+.btn-reserve:hover{
+    background: #ecd71a;
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: #ecd71a;
+    border-bottom: 2px solid #ecd71a;
+}
+
+.baniere{
+    position: relative;
+    width: 100%;
+    min-width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./voiture.png);
+}
+.baniere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.baniere .contenu h2{
+    color: #ecd71a;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: #ecd71a ;
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background: #ecd71a;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background: #2a4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn1:hover{
+    letter-spacing: 4px;
+}
